@@ -1,0 +1,20 @@
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  div.container {
+    width: 700px;
+   }
+}
+@media (max-width: 720px) {
+  div.container {
+    width: 500px;
+   }
+}
+@media (max-width: 540px) {
+  div.container, {
+    width: 300px;
+   }
+}
